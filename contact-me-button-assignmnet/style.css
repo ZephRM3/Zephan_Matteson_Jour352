@@ -1,0 +1,35 @@
+/*
+MY COLOR PALETTE
+Graphite - #3A3335
+Rasberry Red - #D81E5B
+Cinnabar - #F0544F
+Papaya Whip - #FDF0D5
+Ash Grey - #C6D8D3
+*/
+
+body {
+    background-color: #fdf0d5;
+    text-align: center;
+    color: #f0544f;
+}
+button {
+    background-color: #34403a;
+    color: #f0544f;
+    width: 200px;
+    margin: 50px;
+    padding: 10px;
+    font-size: 25px;
+    font-family: "Roboto Slab";
+    border: none;
+    border-radius: 20px;
+}
+button:hover {
+    background-color: #34403a;
+    font-family: "Roboto Slab";
+    width: 220px;
+    padding: 10px;
+}
+
+h1 {
+    font-family: "Roboto Slab";
+}
