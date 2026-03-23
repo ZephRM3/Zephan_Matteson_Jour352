@@ -1,0 +1,21 @@
+/*
+beige - #fdf0d5
+graphite - #3a3335
+green - #48634a
+*/
+
+div {
+    background-color:#3a3335
+}
+
+#headshot {
+    width: 100%;
+    border-radius: 15px;
+}
+
+h1 {
+    font-family: "Arbutus Slab", serif;
+    letter-spacing: -.7px;
+    width:100%;
+    color: #fdf0d5;
+}
