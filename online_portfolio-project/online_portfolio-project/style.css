@@ -1,0 +1,177 @@
+/*
+beige - #fdf0d5
+graphite - #3a3335
+green - #48634a
+*/
+@media screen {
+    body {
+        margin: 0;
+    }
+
+    #topper {
+        background-color: #3a3335;
+    }
+
+    #headshot {
+        padding: 20px;
+        width: 400px;
+        border-radius: 55px;
+    }
+
+    h1 {
+        padding: 20px;
+        font-family: "Arbutus Slab", serif;
+        font-size: 100;
+        letter-spacing: -0.7px;
+        width: 100%;
+        color: #fdf0d5;
+        text-align: center;
+        margin: 0;
+        padding-bottom: 5px;
+    }
+
+    h2 {
+        padding: 10px;
+        font-family: "Barlow", serif;
+        letter-spacing: -0.7px;
+        width: 100%;
+        color: #fdf0d5;
+        text-align: center;
+        margin: 0;
+    }
+
+    button {
+        display: block;
+        margin: 20px auto;
+        padding: 10px 20px;
+        letter-spacing: -0.7px;
+        color: #48634a;
+        background-color: #fdf0d5;
+        border-radius: 15px;
+        text-align: center;
+        height: 100px;
+        font-size: 30px;
+        font-family: "Barlow", serif;
+    }
+
+    #navigation {
+        text-align: center;
+        height: 100px;
+        background-color: #fdf0d5;
+        padding: 20px 0;
+        border-radius: 25px;
+    }
+
+    .nav a {
+        display: inline-block;
+        margin: 0 15px;
+        color: #48634a;
+        text-decoration: none;
+        font-size: 30px;
+        font-family: "Barlow", serif;
+        margin: 0 20px;
+    }
+
+    #experience-link {
+        padding-left: 250px;
+    }
+
+    #skills-link {
+        padding-left: 165px;
+    }
+
+    #education-link {
+        padding-right: 50px;
+    }
+
+    nav a:hover {
+        font-weight: bold;
+        border-bottom: 1px solid #3a3335;
+    }
+
+    #experience-section {
+        background-color: #3a3335;
+    }
+
+    #experience {
+        color: #fdf0d5;
+        font-size: 35px;
+        padding: 20px;
+        font-family: "Arbutus Slab", serif;
+        text-align: justify;
+    }
+
+    h4 {
+        color: #fdf0d5;
+        font-family: "Barlow", serif;
+    }
+
+    h5 {
+        color: #fdf0d5;
+        font-family: "Barlow", serif;
+    }
+
+    h6 {
+        color: #fdf0d5;
+        font-family: "Barlow", serif;
+    }
+
+    #job-description-1 {
+        color: #fdf0d5;
+        font-family: "Barlow", serif;
+    }
+
+    #job-description-2 {
+        color: #fdf0d5;
+        font-family: "Barlow", serif;
+    }
+
+    #job-description-3 {
+        color: #fdf0d5;
+        font-family: "Barlow", serif;
+    }
+
+    #skills-section {
+        background-color: #fdf0d5;
+        border-radius: 25px;
+        padding: 20px;
+    }
+
+    #skills {
+        color: #3a3335;
+        font-size: 35px;
+        font-family: "Arbutus Slab", serif;
+    }
+
+    #skills-list {
+        color: #48634a;
+        font-family: "Barlow", serif;
+        font-size: 25px;
+    }
+
+    #education-section {
+        background-color: #3a3335;
+    }
+
+    #education {
+        font-size: 35px;
+        font-family: "Arbutus Slab", serif;
+        color: #fdf0d5;
+    }
+}
+
+@media (min-width: 576px) {
+    h1 {
+        font-size: 70px;
+    }
+
+    button {
+        width: 200px;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 90px;
+    }
+}
