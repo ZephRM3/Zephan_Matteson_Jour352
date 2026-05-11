@@ -1,0 +1,120 @@
+@media screen {
+    #topper {
+        background-image: url(blake-1024x683.webp);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    h1 {
+        font-family: "Rubik Mono One", monospace;
+        color: white;
+        padding-left: 50px;
+        padding-top: 15px;
+        margin-top: 25px;
+        padding-right: 10px;
+    }
+
+    h2 {
+        font-family: "Roboto Slab", sans-serif;
+        color: white;
+        padding-left: 50px;
+        padding-bottom: 10px;
+    }
+
+    h3 {
+        color: white;
+        padding-left: 50px;
+        padding-bottom: 10px;
+        margin-top: -10px;
+        font-size: smaller;
+        font-family: "Roboto Slab", sans-serif;
+    }
+
+    p {
+        font-family: "Roboto Slab", sans-serif;
+    }
+
+    img {
+        width: 80%;
+        padding-left: 20%;
+    }
+
+    .wemby-caption {
+        font-size: smaller;
+        font-family: "Roboto Slab", sans-serif;
+        padding-left: 20%;
+        padding-right: 19%;
+        margin-bottom: -20px;
+    }
+
+    .pingpong-caption {
+        font-size: smaller;
+        font-family: "Roboto Slab", sans-serif;
+        padding-left: 20%;
+        padding-right: 19%;
+        margin-bottom: -20px;
+    }
+
+    .black-background {
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 25px;
+    }
+
+    .upside-down-photo-caption {
+        font-family: "Roboto Slab", sans-serif;
+        color: black;
+        padding-left: 3px;
+    }
+
+    .pull-quote {
+        font-family: "Rubik Mono One", monospace;
+        font-weight: bold;
+        align-content: center;
+        padding-left: 18%;
+    }
+
+    .quote {
+        font-family: "Rubik Mono One", monospace;
+        font-size: 500%;
+        color: orange;
+    }
+
+    .pull-quote-attribution {
+        font-family: "Roboto Slab", sans-serif;
+        font-size: 200%;
+        padding-left: 50%;
+    }
+
+    .contributor-attribution {
+        font-weight: bold;
+    }
+
+    .story-attribution {
+        font-weight: bold;
+    }
+
+    #paragraphs {
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) {
+    #paragraphs {
+        width: 75%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    #paragraphs {
+        width: 85%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    #paragraphs {
+        width: 85%;
+        margin: auto;
+    }
+}
